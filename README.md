@@ -9,7 +9,7 @@
 > **Note**
 > Esse Read.me está traduzido em português e inglês, para ver a versão em português clique abaixo
 <p align="center">
-    <a href="/docs/readme_pt-BR.md">Português Brasileiro</a>
+    <a href="readme_pt-br.md">Português Brasileiro</a>
 </p>
 
 Hi, I go try to explain and teach how to build a site in visual studio code 
