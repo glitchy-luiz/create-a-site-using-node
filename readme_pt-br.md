@@ -17,6 +17,7 @@ Primeiramente vou tentar ensinar o que significa cada coisa que irei mostrar, po
 
 use este readme como quiser, mas quero deixar bem avisado que sou apenas um aluno de front/back-end então não sou qualificado para ensinar nada, mas caso tenha alguma dúvida vou tentar responde-lá na aba wiki assim que eu cria-lá, e pelo discord : )
 
+# Primeiros passos
 
 
 
