@@ -4,8 +4,6 @@
 </p>
 
 
-
-
 > **Note**
 > Esse Read.me está traduzido em português e inglês, para ver a versão em português clique abaixo
 <p align="center">
