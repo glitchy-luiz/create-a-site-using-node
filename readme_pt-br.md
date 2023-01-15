@@ -65,13 +65,28 @@ E mude o main o "index.ejs" para "app.ejs", ou pra qualquer que seja o nome do s
 ## 3- Crie as pastas
 
 Essas são as pastas principais para o projeto funcionar por completo:
-
+<li>
 Views
-
+</li>
+<li>
 Assets
-
+</li>
+<li>
 Config
-
+</li>
+<li>
 Models
-
+</li>
+<li>
 Routes
+</li>
+
+
+E depois crie esse arquivo separado das pastas, ou seja, na pasta raiz:
+
+
+<li>
+ App.js
+ </li>
+ 
+ ## 4- Dentro da pasta "Config" crie o arquivo "servidor.js" e escreva:
