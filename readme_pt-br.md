@@ -36,6 +36,7 @@ npm i express ejs mongoose consign multer -s
 ```md
 npm i nodemon -D
 ```
+
 Se tudo estiver correto, vai aparecer um arquivo package.json
 
 
@@ -49,4 +50,28 @@ Esses comandos servem para instalar alguns pacotes que iremos usar, sendo o "i" 
 
 ## 2- Abra o arquivo package.json que foi criado e digite:
 
+```md
+"scripts": {
+    "test": "echo "Error: no test specified" && exit 1",
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+```
 
+(digite em cima das dependencias)
+
+E mude o main o "index.ejs" para "app.ejs", ou pra qualquer que seja o nome do seu arquivo principal, nesse caso irei usar o app.ejs
+
+## 3- Crie as pastas
+
+Essas são as pastas principais para o projeto funcionar por completo:
+
+Views
+
+Assets
+
+Config
+
+Models
+
+Routes
