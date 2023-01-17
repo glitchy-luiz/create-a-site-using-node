@@ -90,3 +90,24 @@ E depois crie esse arquivo separado das pastas, ou seja, na pasta raiz:
  </li>
  
  ## 4- Dentro da pasta "Config" crie o arquivo "servidor.js" e escreva:
+ 
+```md
+const express = require('express')
+const app = express()
+
+const porta = process.env.PORT || 3535
+
+app.use(express.urlencoded({extended:false}))
+
+app.use(express.static("./assets/"))
+
+module.exports={app,porta} 
+```
+
+A const express que criamos server para chamar um dos pacotes que baixamos anteriormente (no caso, o próprio express).
+
+E a const app serve para executar o pacote 
+
+
+A const porta está ligando um servidor em um localhost, que é um servidor próprio da sua máquina, que pode ser aberto em qualquer navegador
+
