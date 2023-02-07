@@ -154,3 +154,9 @@ app.listen(porta)
 As linhas que tem // no começo são cometários para facilitar a entender como funciona o código
 
 O consign que está chamando o pacote consign faz com que ele crie rotas automáticas
+
+
+### Em resumo, já está tudo pronto
+>agora abra o terminal e escreva "node app" ou "nodemon app" no terminal, e no seu navegador escreva localhost:"numero da porta". 
+> Por enquanto o site está em branco, mas isso é porque não temos nada no front-end, mas o projeto já está funcionando
+>E agora, vamos continuar com alguns detalhes a mais que podem ajudar a melhorar seu projeto
