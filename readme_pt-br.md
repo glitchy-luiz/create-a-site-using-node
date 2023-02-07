@@ -111,3 +111,46 @@ E a const app serve para executar o pacote
 
 A const porta está ligando um servidor em um localhost, que é um servidor próprio da sua máquina, que pode ser aberto em qualquer navegador
 
+>**Warning**
+>O número 3535 é o número do localhost, você pode colocar o número de 4 digitos que quiser, MAS você não pode ter 2 projetos abertos na mesma porta ao mesmo tempo
+
+
+## 5- Dentro da pasta "Views" crie um arquivo "index.ejs"
+
+(pode ser qualquer nome obviamente) e dentro dele crie a base de um HTML (! + TAB). Caso mude o nome do arquivo, lembre-se de mudar o arquivo que será direcionado na routes 
+
+E para deixar claro, a diferença entre um HTML e um EJS é básicamente a forma em que conseguimos implementar o front-end e o back-end no mesmo arquivo, mas de resto eles funcionam igualmente
+
+## 6- Dentro da pasta "Routes" crie um arquivo chamado "index.js" e colar:
+
+```md
+module.exports= (app)=>{
+
+app.get('/',(req,res)=>{
+   res.render('index.ejs')
+})
+}
+```
+
+A pasta Routes, como o nome já diz, é onde vamos criar as rotas que serão usadas para acessar nossas páginas. Como no exemplo acima, nós dizemos que a rota padrão "/" vai renderizar a página "index.ejs"
+
+## 7- Dentro do arquivo "App.js" que está fora das pastas digite:
+
+```md
+//const servidor = require('./config/servidor')
+//const app = servidor.app
+//const porta = servidor.porta
+
+//para facilitar coloque:
+const {app,porta} = require('./config/servidor')
+
+//este consign pode estar ai, no servidor, e no app se quiser
+const consign = require('consign') 
+consign().include('./routes').into(app)
+
+app.listen(porta)
+```
+
+As linhas que tem // no começo são cometários para facilitar a entender como funciona o código
+
+O consign que está chamando o pacote consign faz com que ele crie rotas automáticas
