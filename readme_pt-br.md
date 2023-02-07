@@ -52,7 +52,7 @@ Esses comandos servem para instalar alguns pacotes que iremos usar, sendo o "i" 
 
 ```md
 "scripts": {
-    "test": "echo "Error: no test specified" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app",
     "dev": "nodemon app"
   },
