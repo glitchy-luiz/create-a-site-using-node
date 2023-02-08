@@ -163,3 +163,17 @@ O consign que está chamando o pacote consign faz com que ele crie rotas automá
 
 
 * * *
+
+
+## 8- Para fazer um banco de dados, vá na pasta config e crie o arquivo "database.js" e escreva:
+
+Aqui nós vamos usar um banco de dados NoSQL chamado de mongoose, para usa-lo é preciso criar uma conta gratuita no site do mongo DB atlas. E também pode ser util instalar o mongo compass, mas isso não é obrigatório
+```md
+const mongoose = require('mongoose')
+
+const conexao = async()=>{
+    const atlas = await mongoose.connect('link do mongo')
+}
+
+module.exports = conexao
+```
