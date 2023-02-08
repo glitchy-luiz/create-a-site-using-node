@@ -177,3 +177,5 @@ const conexao = async()=>{
 
 module.exports = conexao
 ```
+
+Fazer o login e pegar o link do mongo pode ser complicado, mas não quero me focar nisto
