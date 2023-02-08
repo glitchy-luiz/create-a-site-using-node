@@ -178,4 +178,33 @@ const conexao = async()=>{
 module.exports = conexao
 ```
 
-Fazer o login e pegar o link do mongo pode ser complicado, mas não quero me focar nisto
+Fazer o login e pegar o link do mongo pode ser complicado, mas não quero me focar nisto, então possívelmente farei outro read.me focando apenas nisso
+
+## 9- Para fazer uma model para pegar informações  dentro do forms:
+
+Aqui vai ser um espaço util para pegar informações que o usuário colocar em formulários dentro das páginas
+
+```md
+const modelo =  mongoose.Schema({
+    produto:String,
+    validade:Date,
+    situacao:{type:Number,default:0}
+})
+```
+Isto é um exemplo de um modelo de infos de um formulário, tendo um espaço pra escrever o produto(String), um para informar uma data(Date) e um campo que indica a situação do produto, ou seja, um status para ele.
+
+Mas ele só será útil se você tiver um formulário no ejs, que e breve irei continuar esse conteúdo no futuro.
+
+### Para reabrir o site ao pegar o arquivo:
+
+> **Note**
+> toda vez que você desligar o computador por exemplo, ou fecho o servidor, para ligar novamente abra o terminal e escreva:
+```md
+npm i nodemon -g
+```
+```md
+npm i express
+```
+```md
+nodemon app
+```
