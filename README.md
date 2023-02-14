@@ -7,7 +7,7 @@
 > **Note**
 > This Read.me will be translate to english and portuguese, for to see the english version click below
 <p align="center">
-    <a href="README.md">English</a>
+    <a href="readme_pt-br.md">English</a>
 </p>
 
 
